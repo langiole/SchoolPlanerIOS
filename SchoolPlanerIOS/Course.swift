@@ -10,13 +10,18 @@ import UIKit
 
 class Course {
     
-    var courseName: String!
-    var courseColor: UIColor!
+    var name: String!
+    var color: UIColor!
+    var assignments = [[Assignment]]()
     
-    init(courseName: String, courseColor: UIColor) {
-        self.courseName = courseName
-        self.courseColor = courseColor
+    init(name: String) {
+        self.name = name
+        self.color = UIColor.whiteColor()
     }
     
+    init(name: String, color: UIColor) {
+        self.name = name
+        self.color = color
+    }
     
 }

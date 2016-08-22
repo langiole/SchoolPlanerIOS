@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB39D9741D54FB36001AC5F0 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB39D9731D54FB36001AC5F0 /* Assignment.swift */; };
+		FB39D9761D54FF37001AC5F0 /* SettingVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB39D9751D54FF37001AC5F0 /* SettingVariables.swift */; };
+		FB57E0DF1D52724800FE49F4 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57E0DE1D52724800FE49F4 /* UIView+.swift */; };
 		FB71C86B1D38696A006B6A73 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71C86A1D38696A006B6A73 /* MainViewController.swift */; };
 		FB71C86D1D3883A1006B6A73 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71C86C1D3883A1006B6A73 /* Course.swift */; };
+		FB8304411D50065A009EE338 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8304401D50065A009EE338 /* DetailTableViewCell.swift */; };
+		FB8304471D513631009EE338 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8304461D513631009EE338 /* UIColor+.swift */; };
 		FB9BBEEB1D3814650032AA83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BBEEA1D3814650032AA83 /* AppDelegate.swift */; };
 		FB9BBEF01D3814650032AA83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9BBEEE1D3814650032AA83 /* Main.storyboard */; };
 		FB9BBEF21D3814650032AA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9BBEF11D3814650032AA83 /* Assets.xcassets */; };
 		FB9BBEF51D3814650032AA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9BBEF31D3814650032AA83 /* LaunchScreen.storyboard */; };
 		FB9BBF001D3814650032AA83 /* SchoolPlanerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BBEFF1D3814650032AA83 /* SchoolPlanerIOSTests.swift */; };
 		FB9BBF0B1D3814650032AA83 /* SchoolPlanerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BBF0A1D3814650032AA83 /* SchoolPlanerIOSUITests.swift */; };
-		FB9BBF191D3815AF0032AA83 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BBF181D3815AF0032AA83 /* MainTableViewController.swift */; };
 		FB9BBF1B1D3815D30032AA83 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BBF1A1D3815D30032AA83 /* CourseTableViewCell.swift */; };
-		FBB6FF761D38990000ACE97B /* CourseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6FF751D38990000ACE97B /* CourseUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB39D9731D54FB36001AC5F0 /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		FB39D9751D54FF37001AC5F0 /* SettingVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVariables.swift; sourceTree = "<group>"; };
+		FB57E0DE1D52724800FE49F4 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		FB71C86A1D38696A006B6A73 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FB71C86C1D3883A1006B6A73 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		FB8304401D50065A009EE338 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		FB8304461D513631009EE338 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		FB9BBEE71D3814650032AA83 /* SchoolPlanerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolPlanerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9BBEEA1D3814650032AA83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9BBEEF1D3814650032AA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,9 +60,7 @@
 		FB9BBF061D3814650032AA83 /* SchoolPlanerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolPlanerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9BBF0A1D3814650032AA83 /* SchoolPlanerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolPlanerIOSUITests.swift; sourceTree = "<group>"; };
 		FB9BBF0C1D3814650032AA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB9BBF181D3815AF0032AA83 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		FB9BBF1A1D3815D30032AA83 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
-		FBB6FF751D38990000ACE97B /* CourseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB8304421D500671009EE338 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BBF1A1D3815D30032AA83 /* CourseTableViewCell.swift */,
+				FB8304401D50065A009EE338 /* DetailTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		FB8304431D50068F009EE338 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FB71C86A1D38696A006B6A73 /* MainViewController.swift */,
+			);
+			name = HomeScreen;
+			sourceTree = "<group>";
+		};
+		FB8304441D5006A3009EE338 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				FB71C86C1D3883A1006B6A73 /* Course.swift */,
+				FB39D9731D54FB36001AC5F0 /* Assignment.swift */,
+				FB39D9751D54FF37001AC5F0 /* SettingVariables.swift */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		FB8304451D51361E009EE338 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB8304461D513631009EE338 /* UIColor+.swift */,
+				FB57E0DE1D52724800FE49F4 /* UIView+.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		FB9BBEDE1D3814640032AA83 = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +147,15 @@
 		FB9BBEE91D3814650032AA83 /* SchoolPlanerIOS */ = {
 			isa = PBXGroup;
 			children = (
+				FB8304451D51361E009EE338 /* Extensions */,
+				FB8304441D5006A3009EE338 /* Backend */,
+				FB8304431D50068F009EE338 /* HomeScreen */,
+				FB8304421D500671009EE338 /* Cells */,
 				FB9BBEEA1D3814650032AA83 /* AppDelegate.swift */,
 				FB9BBEEE1D3814650032AA83 /* Main.storyboard */,
 				FB9BBEF11D3814650032AA83 /* Assets.xcassets */,
 				FB9BBEF31D3814650032AA83 /* LaunchScreen.storyboard */,
 				FB9BBEF61D3814650032AA83 /* Info.plist */,
-				FB9BBF181D3815AF0032AA83 /* MainTableViewController.swift */,
-				FB9BBF1A1D3815D30032AA83 /* CourseTableViewCell.swift */,
-				FB71C86A1D38696A006B6A73 /* MainViewController.swift */,
-				FB71C86C1D3883A1006B6A73 /* Course.swift */,
-				FBB6FF751D38990000ACE97B /* CourseUIView.swift */,
 			);
 			path = SchoolPlanerIOS;
 			sourceTree = "<group>";
@@ -271,12 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9BBF191D3815AF0032AA83 /* MainTableViewController.swift in Sources */,
 				FB9BBEEB1D3814650032AA83 /* AppDelegate.swift in Sources */,
 				FB71C86D1D3883A1006B6A73 /* Course.swift in Sources */,
-				FBB6FF761D38990000ACE97B /* CourseUIView.swift in Sources */,
+				FB57E0DF1D52724800FE49F4 /* UIView+.swift in Sources */,
 				FB9BBF1B1D3815D30032AA83 /* CourseTableViewCell.swift in Sources */,
+				FB8304411D50065A009EE338 /* DetailTableViewCell.swift in Sources */,
+				FB39D9761D54FF37001AC5F0 /* SettingVariables.swift in Sources */,
+				FB39D9741D54FB36001AC5F0 /* Assignment.swift in Sources */,
 				FB71C86B1D38696A006B6A73 /* MainViewController.swift in Sources */,
+				FB8304471D513631009EE338 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
